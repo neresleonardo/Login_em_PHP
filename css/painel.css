@@ -1,0 +1,69 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.topo {
+	width: 100% ;
+	height:50px;
+	background-color:#009688 ;
+}
+
+.clear {
+	clear: both;
+}
+
+.bar {
+	width:15% ;
+	height:782px; 
+	position: absolute;
+	background-color:black ;
+}
+
+
+.foto {
+	width: 60px;
+	height: 60px;
+	background-color: gold;
+	border-radius: 30px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.usuario {
+	float: right;
+	margin-right: 50px;
+	margin-top: 15px;
+}
+
+a {
+	text-decoration: none;
+	color: #fcfcfc;
+	margin-top: 10px;
+}
+
+li {
+	width:100%;
+	height:40px;
+	background-color:black;
+	font-size: 20px;
+	font-family: arial;
+	cursor: pointer;
+	list-style-type: none;
+	margin:10px 0 -20px -42px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 6px;
+	border: 1px solid;
+}
+
+li:hover{
+	background-color: #00786c;
+}
+
+h1 {
+	font-size: 20px;
+	font-family: arial;
+	color: #fcfcfc;
+}
